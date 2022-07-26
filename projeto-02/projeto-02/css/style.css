@@ -1,0 +1,66 @@
+
+  
+body{
+    background-image: url(../imagens/capa.png), url(../imagens/ruido.png), linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav.navbar-transparente{
+    padding: 0.938rem 0rem;
+    background: rgba(0, 0, 0, 0.6);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: whitesmoke;
+    
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: tomato !important;
+}
+.navbar-light .navbar-toggler{
+    color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(0, 0, 0, 0);
+    
+}
+.divisor{
+    width: 1px;
+    background-color: white;
+    margin: 12px 15px;
+}
+.capa{
+    text-align: center;
+    
+}
+.btn-custom{
+    color: whitesmoke;
+    border-radius: 500px;
+    text-transform: uppercase;
+}
+.btn-roxo{
+    background: #7c26f8;
+}
+.btn-branco{
+    border: 2px solid whitesmoke;
+}
+.btn-branco:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.btn-roxo:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+#home{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+/* footer.navbar-transparente2{
+    padding: 0.938rem 0rem;
+    background: rgba(0, 0, 0, 0.6);
+} */
+.footer small{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 12px;
+}
